@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+:root {
+  --button-bg: #fe5e35;
+  --button-text: #ffffff;
+  --text-color: #000000;
+  --paragarpgh-text-color: #9e9e9e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  padding: 41px;
+  font-family: "Fredoka One";
+  padding-bottom: 0;
+  padding-top: 0px;
+}
+
+nav,
+.nav-items,
+.intro-section,
+.dots {
+  display: flex;
+}
+.intro-section {
+  align-items: center;
+}
+nav {
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 32px;
+}
+
+img[alt="logo"] {
+  width: 108px;
+}
+img[alt="circles"] {
+  width: 30px;
+}
+img[alt="headphone"] {
+  width: 459px;
+  position: relative;
+  right: 109px;
+}
+
+.nav-item {
+  font-size: 19px;
+  margin: 0 50px;
+}
+.active-item {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+.discount-content {
+  position: absolute;
+  bottom: 217px;
+  font-size: 27px;
+  right: 503px;
+  color: var(--button-text);
+  z-index: 5;
+}
+.discount-content > h1 {
+  font-size: 57px;
+  position: relative;
+  top: -16px;
+  left: -31px;
+}
+.discount-content > h4 {
+  font-size: 13px;
+  position: relative;
+  top: -16px;
+  left: -8px;
+}
+.discount {
+  position: absolute;
+  bottom: 199px;
+  right: 513px;
+  z-index: 3;
+  transform: rotate(52deg);
+  width: 159px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  padding: 13px 25px;
+  border-radius: 20px;
+  border: none;
+  font-size: 15px;
+}
+
+.action-btn,
+.dots {
+  margin: 0 0 0 59px;
+}
+.action-btn {
+}
+.dot {
+  margin: 20px 10px 30px 10px;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  gap: 57px 0px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  top: 72px;
+  font-size: 33px;
+}
+
+h1 {
+  font-size: 66px;
+  position: relative;
+  top: 27px;
+}
+.sub-headlines {
+  position: relative;
+  bottom: -10px;
+  left: 87px;
+  font-family: "Fredoka One";
+}
+
+img[alt="plus"] {
+  background-color: var(--button-bg);
+  border-radius: 16px;
+  margin-right: 19px;
+  position: relative;
+  top: 8px;
+  width: 18px;
+  padding: 4px;
+}
+.sub-headline {
+  margin: 16px 0px;
+}
+
+p.text {
+  color: #cdcdcd;
+  font-family: "Roboto", sans-serif;
+  padding: 0 325px 0 0;
+}
+
+h4 {
+  font-size: 16px;
+}
+.yellow-dot {
+  background-color: #fbd104;
+}
+.black-dot {
+  background-color: #fe5e35;
+}
+.tomato-dot {
+  background-color: #000000;
+}
